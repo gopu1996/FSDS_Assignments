@@ -1,0 +1,55 @@
+Answer 1: In the below elements these are values or an expresion as follow:
+         
+       *        : expresion
+       'hello'  : values
+       -87.8    : values
+       -        : expresion
+       /        : expresion
+       +	    : expresion
+       6        : values
+
+Answer 2: Different between String and variable as follow:
+    
+          string : it is type of information which we want store in Variable i.e : "Hello"
+          Variable :  it store a any type information either it's string,int,float,bool etc
+
+Answer 3 : the three data types are follow:
+    
+           int : it is used to represent numbers in Python  i.e : value = 10
+           String : it is used for representing characters  i.e : value = 'gopal'
+           float : it is used for representing numbers in  either positive or negative decimal values i.e: value = 29.9
+
+Answer 4: An expression is a combination of operators and operands that is interpreted to produce some other value.
+          An expression is evaluated as per the precedence of its operator.
+          i.e : Constant Expressions: These are the expressions that have constant values only
+                x = 10 + 2
+
+Answer 5 : An expression is a combination of operators and operands that is interpreted to produce some other value.
+           A statement is an instruction that a Python interpreter can execute. So, in simple words, we can say anything written in Python is a statement
+           Note that expressions are statements as well
+
+Answer 6 : bacon = 22
+
+Answer 7 : if we print these two term we get same result
+            print('spam' + 'spamspam')  : OP : spamspamspam
+            print('spam' * 3) : OP :spamspamspam
+
+Answer 8: There is some rule and regulation of declearing a variable
+          egg is valid variable because it's start with letter(a-zA-Z) or underscore (_).
+          100 is not valid because it isn't start with letter(a-zA-Z) or underscore (_).
+
+Answer 9 : The three functions can be used to get the of value are follow:
+           
+            integer : int()
+            float   : float()
+            string  : str()
+
+Answer 10: This expression cause an because we are concatenate intger with string.
+            fix : 'I have eaten ' + str(99) + ' burritos.'
+                  'I have eaten ' + '99' + ' burritos.'
+           
+
+
+          
+
+
