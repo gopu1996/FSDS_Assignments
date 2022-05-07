@@ -1,0 +1,94 @@
+Answer 1 :  True and False, using capital T and F, with the rest of the word in lowercase
+
+Answer 2 :  There are three basic Boolean search commands: AND, OR and NOT.
+
+Answer 3 : ---------------------------
+          AND Truth  Table
+		  
+			A	B	Q
+			0	0	0
+			0	1	0
+			1	0	0
+			1	1	1
+--------------------------------------			
+         OR Truth Table
+		 
+			A	B	Q
+			0	0	0
+			0	1	1
+			1	0	1
+			1	1	1
+-------------------------------------
+
+         NOT Truth Table
+
+			A	Q
+			0	1
+			1	0		 
+			
+Answer 4: 		                                      Output	 
+			(5 > 4) and (3 == 5)                      False
+			 not (5 > 4)                              False
+			(5 > 4) or (3 == 5)                       True
+			not ((5 > 4) or (3 == 5))                 False
+			(True and True) and (True == False)       False
+			(not False) or (not True)                 True
+			
+			
+Answer 5 : Python has six comparison operators, which are as follows:
+				Less than ( < )
+				Less than or equal to (<=)
+				Greater than (>)
+				Greater than or equal to (>=)
+				Equal to ( == )
+				Not equal to ( != )		
+
+Answer 6: The "=" is an assignment operator is used to assign the value on the right to the variable on the left.
+          The '==' operator checks whether the two given operands are equal or not. If so, it returns true		
+          
+		  When ever we want assigning the value to a variable then we are use the assignment operator.  ie: x = 10 ; print(x) ; opt : 10
+		  When ever we have to checks whether the two given operands are equal or not then we are using  '==' i.e: x , y = 10  ; print(x == y); opt : True
+		  
+Answer 7 :  The Three block are 
+				print('eggs')
+				if spam > 5:
+					print('bacon')
+				else:
+					print('ham')
+				print('spam')	
+
+Answer 8: The Code as follows:
+			spam = int(input('Enter the Number'))
+			if spam == 1:
+				print("Hello")
+			elif spam == 2 :
+				print("Howdy")
+			else:
+				print("Greetings!")
+				
+Answer 9: Ctrl + C .
+
+Answer 10:                          BREAK                                                     CONTINUE
+                        
+						The 'break 'stop the loop.                                      The 'continue' does not stop the loop and it stops the current.
+							
+             It eliminates the execution of remaining iteration of loop                 It will terminate only the current iteration of loop.
+			 Syntax: break                                                                           Syntax : continue
+			
+			
+Answer 11: range(10)	: in this method we provide only stop arguments for loop
+           range(0,10)	: in this method we provide start and stop arguments for loop		
+		   range(0,10,1): in this method we provide start,stop and step arguments for loop
+		   
+		   
+Answer 12:	For loop :
+			   for i in range(1,10):
+				print(i)
+		    While loop:
+                i = 1
+				while i <=10 :
+					print(i)
+					i +=1 	
+
+Answer 13: This function can be called with spam.bacon().					
+			
