@@ -1,0 +1,62 @@
+Answer 1:  The advantageous to have in your programs are follow:
+        
+		 a. Using function increase readability of a program.A big code is always difficult to read. Breaking the code in smaller Functions keeps the program organized, easy to understand and makes it reusable.
+         b. The length of a source program can be reduced by using functions at appropriate places. This factor is particularly critical with microcomputers where memory space is limited.
+         c. It is easy to locate and isolate a faulty function for further investigations.
+		 
+Answer 2: The code in a function executes when the function is called, not when the function is defined		 
+
+Answer 3: In Python we use def keyword creates a function
+
+Answer 4: A function is a block of code that does a particular operation and returns a result. It usually accepts inputs as parameters and returns a result. The parameters are not mandatory.
+          i.e:
+				def add(a,b)
+				return a+ b
+		A function call is the code used to pass control to a function.
+          i.e:
+				b = add(5,6)
+				result will be 11.				 
+
+Answer 5: There is one global scope, and a local scope is created whenever a function is called.					 
+
+Answer 6: A local variable retains its value until the next time the function is called A local variable becomes undefined after the function call completes.
+
+Answer 7: The value that a function returns to the caller is generally known as the function's return value.
+          yes it possible to have a return value in an expression 
+		   i.e 
+		         def add(a,b)             // Here we are using Arithmetic Expressions
+				   return a+ b
+				   
+Answer 8: If there is no return statement for a function, its return value is None.		
+
+Answer 9 : you can use the global keyword to declare which variables are global		   
+           x = "Gopal"
+		   def myfunc():
+			  global x
+			  x = "fantastic"
+		
+           myfunc()
+           print("Python is " + x)		
+		   
+Answer 10:The data type of None is NoneType.
+
+Answer 11: import areallyourpetsnamederic do it's import areallyourpetsnamederic module and we can access the function inside this module(which isn't private function)
+
+Answer 12: This function can be called with spam. bacon().
+
+Answer 13: for crashing if it encounters an error we can do as follow:
+            a.The statement inside the try block is executed.
+            b.If the statement is successful, both except clauses are skipped and the code inside the finally clause is run.
+		    c.If the statement inside the try block fails, the code in the first except statement is executed. If the statement fails due to a ValueError (i.e. not being able to convert a non-digit to an int), the code in the except ValueError block is run.
+			
+Answer 14: 
+            The try block lets you test a block of code for errors.
+			The except block lets you handle the error.
+			i.e:
+			// Here we didn't declare the value of X 
+			try:
+				print(x)
+			except:
+				print("An exception occurred")
+			
+		   
