@@ -1,0 +1,94 @@
+1. What exactly is []?
+
+Answer : The empty list value, which is a list value that contains no items
+
+2. In a list of values stored in a variable called spam, how would you assign the value "hello" as the
+third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+
+Answer : spam[2] = 'hello'
+
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+
+Answer : 3
+
+4. What is the value of spam[-1]?
+
+Answer : it's count from the end
+         i.e: 	 spam = ['cat', 'bat', 'rat', 'elephant']
+		         spam[-1]
+                 opt: 'elephant'
+5. What is the value of spam[:2]?
+
+Answer : Here we giving end arguments for list as 2 so that it will display up to 2 index value as output.
+       i.e: 	 spam = ['cat', 'bat', 'rat', 'elephant']
+		         spam[:2]
+                 opt: ['cat', 'bat']
+
+Let's pretend bacon has the list [3.14,'cat', 11,'cat', True] for the next three questions.
+6. What is the value of bacon.index('cat')?
+  
+Answer :  1 
+
+7. How does bacon.append(99) change the look of the list value in bacon?
+
+Answer : [3.14,'cat', 11,'cat', True,99]
+
+8. How does bacon.remove('cat') change the look of the list in bacon?
+
+Answer : [3.14, 11, 'cat', True]
+
+9.  What are the list concatenation and list replication operators?
+
+Answer : The operator for list concatenation is +, while the operator for replication is *.
+
+10. What is difference between the list methods append() and insert()?
+
+Answer : append() : It adds an element at the end of the list. The argument passed in the append function is added as a single element at end of the list and the length of the list is increased by 1.
+                  i.e:  list_name.append(element)
+	     insert() : This method can be used to insert a value at any desired position. It takes two arguments-element and the index at which the element has to be inserted.
+                  i.e: list_name.insert(index,element)
+		 
+
+11. What are the two methods for removing items from a list?
+
+Answer : The two methods for removing items from a list are follow:
+          a. remove()
+		  b. pop()
+         
+12. Describe how list values and string values are identical.
+
+Answer : The similarity between Lists and Strings in Python is that both are sequences
+
+13. What's the difference between tuples and lists?
+
+Answer :  Tuples are immutable objects the lists are mutable
+          Tuples are more memory efficient than the lists
+		  Tuples represent as () where as list as []
+
+14. How do you type a tuple value that only contains the integer 42?
+
+Answer : abc = (42,)
+
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+
+Answer : Using tuple() builtin function :
+           i.e: sample_list = ['Compile', 'With', 'Favtutor']
+		        tuple1 = tuple(sample_list)
+                print(tuple1)
+				
+		  Using list() builtin function :	
+              i.e: sample_tuple = ('Compile', 'With', 'Favtutor')
+		           list1 = list(sample_tuple)
+                   print(list1)
+						  
+
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they
+contain?
+
+Answer : They contain references to list values.
+
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+
+Answer : copy.copy() create reference to original object. If you change copied object - you change the original object
+         copy.deepcopy() creates new object and does real copying of original object to new one. Changing new deepcopied object doesn't affect original object
